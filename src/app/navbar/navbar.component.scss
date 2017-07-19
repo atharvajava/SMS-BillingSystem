@@ -1,0 +1,38 @@
+.smsnav .navbar-brand {
+  background: url(http://save-on-pharmacy.com/wp-content/uploads/2014/09/logo-medical.png) center / contain no-repeat;
+  width: 200px;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 5px;
+  position: absolute;
+}
+.navbutton{
+    color:whitesmoke;
+    margin-top:9px;
+    font-size:20px;
+}
+
+.smstitle{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar-alignit .navbar-header {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+.navbar-alignit .navbar-brand {
+	top: 50%;
+	display: block;
+	position: relative;
+	height: auto;
+	transform: translate(0,-50%);
+	margin-right: 15px;
+    margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
