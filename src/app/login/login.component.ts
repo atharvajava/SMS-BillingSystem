@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-
+  clickMessage:string;
   constructor() { }
 
   ngOnInit() {
   }
-
+  
+  onClickLogin(e){
+    this.clickMessage='Login works';
+    console.log(this.clickMessage);
+    console.log(e)
+  }
 }
